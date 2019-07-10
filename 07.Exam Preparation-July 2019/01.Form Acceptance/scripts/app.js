@@ -30,7 +30,7 @@ function acceptance() {
 				divElement.remove();
 			});
 
-			pElement.textContent = `[${companyData}] ${productData} - ${finalQauantity} pieces`;
+			pElement.textContent = `[${companyData.value}] ${productData.value} - ${finalQauantity} pieces`;
 
 		}
 		document.querySelector('input[name = "shippingCompany"]').value = '';
